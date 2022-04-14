@@ -4,4 +4,4 @@ import App from './App';
 import Login from './pages/Login'
 import Home from './pages/Home'
 
-ReactDOM.render(<Home />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
