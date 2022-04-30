@@ -1,7 +1,7 @@
 import Logo from './sub-header/Logo'
 import SearchForm from './sub-header/SearchForm'
 import Buttons from './sub-header/Buttons'
-import {Row, Col} from 'react-bootstrap'
+import {Row} from 'react-bootstrap'
 
 function BottomRibbon(){
     return (
