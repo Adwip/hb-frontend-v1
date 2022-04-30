@@ -10,16 +10,6 @@ import Search from "../pages/SearchResult";
 
 const router = [
     {
-        'path':'/',
-        'page': <Home/> ,
-        'authRequired':true
-    },
-    {
-        'path':'login',
-        'page': <Login/> ,
-        'authRequired':true
-    },
-    {
         'path':'search',
         'page': <Search/> ,
         'authRequired':false
@@ -51,8 +41,12 @@ const router = [
     }
 ]
 
+const DefaulRoute = {
+    'page': <Home/>
+}
+
 const NoPage = {
     'path':'*',
     'page': <NoRoute/>
 }
-export default {router, NoPage}
+export default {router, DefaulRoute, NoPage}
