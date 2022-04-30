@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "./pages/Home";
+// import Login from "./pages/Login";
+import Header from "./layouts/header/Header";
 /*
 function App() {
   return (
@@ -26,14 +26,18 @@ function App() {
 
 function App(){
   return (
+    <Header/>
+  )
+  /*
+  return (
     <BrowserRouter>
       <Routes>
         <Route index element={Home}/>
         <Route path="login" element={Login}/>
-        {/* <Route path="*"/> */}
+        // { { <Route path="*"/> } }
       </Routes>
     </BrowserRouter>
-  )
+  )*/
 }
 
 export default App;
