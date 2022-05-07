@@ -7,16 +7,6 @@ function App(){
   return (
     <Header/>
   )
-  /*
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={Home}/>
-        <Route path="login" element={Login}/>
-        // { { <Route path="*"/> } }
-      </Routes>
-    </BrowserRouter>
-  )*/
 }
 
 export default App;
