@@ -1,14 +1,15 @@
 
 import {Row, Col} from 'react-bootstrap'
+import "./top-ribbon.scss";
 
 function TopRibbon(){
     return (
-        <Row>
-            <Col>
-                1 of 2
+        <Row className='top-ribbon'>
+            <Col className='top-ribbon-left'>
+                Welcome to Hubing.com
             </Col>
-            <Col>
-                2 of 2
+            <Col className='top-ribbon-right'>
+                About Hubing.com
             </Col>
         </Row>
     )

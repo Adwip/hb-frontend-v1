@@ -1,9 +1,10 @@
 import {Col} from 'react-bootstrap'
+import SearchBox from '../../../components/Form/Search'
 
 function SearchForm (props){
     return (
-        <Col>
-            Ini Search form
+        <Col  md={6}>
+            <SearchBox/>
         </Col>
     )
 }
