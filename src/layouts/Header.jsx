@@ -1,5 +1,5 @@
-import TopRibbon from "./TopRibbon"
-import BottomRibbon from "./BottomRibbon"
+import TopRibbon from "./header/TopRibbon"
+import BottomRibbon from "./header/BottomRibbon"
 import { Container } from "react-bootstrap"
 
 function Header (props){

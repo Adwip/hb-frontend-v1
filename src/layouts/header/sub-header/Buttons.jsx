@@ -2,7 +2,7 @@ import {Col} from 'react-bootstrap'
 
 function Buttons (props){
     return (
-        <Col>
+        <Col md={3}>
             Ini login button and reg button
         </Col>
     )
